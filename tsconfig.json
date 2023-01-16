@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "esModuleInterop": false,
+    "esModuleInterop": true,
     "target": "es5",
     "noImplicitAny": true,
     "moduleResolution": "node",
     "sourceMap": true,
     "allowJs": true,
+    "resolveJsonModule": true,
     "outDir": "dist",
     "baseUrl": ".",
     "paths": {

@@ -2,7 +2,7 @@ import acorn = require('acorn');
 import chalk = require('chalk');
 import es = require('event-stream');
 import fs = require('fs');
-import bcd = require('mdn-browser-compat-data');
+import bcd from '@mdn/browser-compat-data';
 import path = require('path');
 import util = require('util');
 
